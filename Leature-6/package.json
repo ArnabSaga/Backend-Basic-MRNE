@@ -1,0 +1,18 @@
+{
+  "name": "leature-6",
+  "version": "1.0.0",
+  "description": "Discuss about  middleware",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Arnab",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
