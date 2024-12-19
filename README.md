@@ -1,4 +1,4 @@
-# Backend and Full-Stack Basics with Express and Mongoose
+# Backend and Full-Stack Basics with Express and MongoDB
 
 This repository contains code and examples from a series of lectures designed to introduce backend and full-stack development concepts.
 
@@ -28,8 +28,8 @@ This repository contains code and examples from a series of lectures designed to
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/ArnabSaga/Backend-Basic-MRNE.git
+    cd Backend-Basic-MRNE
     ```
 2. Install dependencies:
     ```bash
