@@ -1,8 +1,8 @@
 const express = require('express');
-const mongan = require('morgan');
+const morgan = require('morgan');
 const app = express();
 
-app.use(mongan('dev')) //loger
+app.use(morgan('dev')) //logger
 
 app.set('view engine', 'ejs');
 
