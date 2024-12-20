@@ -1,0 +1,19 @@
+{
+  "name": "leature-8",
+  "version": "1.0.0",
+  "description": "Form controller",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "controller"
+  ],
+  "author": "Arnab",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
