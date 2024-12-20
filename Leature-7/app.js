@@ -1,21 +1,18 @@
 const express = require('express');
-
+const mongan = require('morgan');
 const app = express();
+
+app.use(mongan('dev')) //loger
 
 app.set('view engine', 'ejs');
 
-//cutos middleware
-app.use((req, res, next) => {
-    console.log('this a middleware');
-
-    const a = 10;
-    const b = 20;
-    console.log("Middleware logic",a + b);
-
+app.get('/', (req, res, next) => {
+    const a = 5;
+    const b = 5;
+    console.log('This custom middleware only for / route', a + b);
+    
     return next()
-})
-
-app.get('/', (req, res) => {
+}, (req, res) => {
     res.render('index')
 });
 
