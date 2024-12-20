@@ -10,7 +10,7 @@ app.get('/', (req, res, next) => {
     const a = 5;
     const b = 5;
     console.log('This custom middleware only for / route', a + b);
-    
+
     return next()
 }, (req, res) => {
     res.render('index')

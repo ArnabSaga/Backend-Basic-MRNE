@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Controller</title>
+</head>
+
+<body>
+    <div>
+        <form action="/get-from-date" method="post">
+            <label>
+                Username:
+                <input
+                    type="text"
+                    placeholder="Enter your name"
+                    name="username"
+                >
+            </label>
+            <label>
+                Email:
+                <input
+                    type="Email"
+                    placeholder="Enter your email"
+                    name="email"
+                >
+                <!--to get the input file you have pass 'name' field on it-->
+            </label>
+            <label>
+                Password:
+                <input
+                    type="password"
+                    placeholder="Enter your password"
+                    name="password"
+                >
+            </label>
+
+            <button type="submit">Submit Form</button>
+        </form>
+    </div>
+</body>
+
+</html>
