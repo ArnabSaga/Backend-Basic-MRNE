@@ -5,31 +5,39 @@ This repository contains code and examples from a series of lectures designed to
 ## Lecture Overview
 
 ### Lecture 2: Basics of Backend Development with Express
-
 - **Topic**: Introduction to building a basic backend app.
 - **Key Focus**: Using Express's `get` method to handle requests.
 
 ### Lecture 3: Basics of Full-Stack Development
-
 - **Topic**: Connecting backend and frontend.
 - **Key Focus**: Handling data from the backend server and displaying it in the frontend app.
 
 ### Lecture 4: Data Modeling with Mongoose
-
 - **Topic**: Structuring data for backend applications.
 - **Key Focus**: Creating and managing schemas using Mongoose.
 
 ### Lecture 5: Connecting HTML with Backend
-
 - **Topic**: Integrating the backend with a static frontend.
 - **Key Focus**: Serving HTML files and linking them to backend functionality.
+
+### Lecture 6: Middleware and Custom Middleware
+- **Topic**: Understanding middleware in Express.
+- **Key Focus**: Creating and using custom middleware for backend logic.
+
+### Lecture 7: Third-Party Middleware with Morgan
+- **Topic**: Using third-party middleware in Express.
+- **Key Focus**: Integrating Morgan for request logging and understanding its functionality.
+
+### Lecture 8: Form Controller and Backend Form Handling
+- **Topic**: Managing form submissions.
+- **Key Focus**: Understanding the `form action`, `POST` method, and how the backend processes form data.
 
 ## Usage
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git https://github.com/ArnabSaga/Backend-Basic-MRNE
+    cd Backend-Basic-MRNE
     ```
 2. Install dependencies:
     ```bash
@@ -37,7 +45,6 @@ This repository contains code and examples from a series of lectures designed to
     ```
 3. Run the server:
     ```bash
-    node <app-file>
+    npx nodemon app.js
     ```
-
-
+---
