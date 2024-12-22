@@ -32,11 +32,17 @@ This repository contains code and examples from a series of lectures designed to
 - **Topic**: Managing form submissions.
 - **Key Focus**: Understanding the `form action`, `POST` method, and how the backend processes form data.
 
+### Lecture 9: Connecting MongoDB Compass and CRUD Operations
+- **Topic**: Integrating MongoDB Compass with the codebase.
+- **Key Focus**:
+   - Establishing a connection to MongoDB.
+   - Implementing CRUD operations: **Create**, **Read**, **Update**, and **Delete** using Mongoose.
+
 ## Usage
 
 1. Clone the repository:
     ```bash
-    git https://github.com/ArnabSaga/Backend-Basic-MRNE
+    git clone https://github.com/ArnabSaga/Backend-Basic-MRNE
     cd Backend-Basic-MRNE
     ```
 2. Install dependencies:
@@ -47,4 +53,5 @@ This repository contains code and examples from a series of lectures designed to
     ```bash
     npx nodemon app.js
     ```
+
 ---
