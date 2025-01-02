@@ -10,12 +10,12 @@ const todoSchema = new mongoose.Schema({
         default: false,
     },
     createdBy: {
-        type: mongoose.Schema.Types.ObjectId,  //How to reference another data model(User)   
+        type: mongoose.Schema.Types.ObjectId,  //How to reference another data models(User)
         ref: "User",
     },
     subTodo: [
         {
-            type: mongoose.Schema.Types.ObjectId, //How to reference another data model(SubTodo)
+            type: mongoose.Schema.Types.ObjectId, //How to reference another data models(SubTodo)
             ref: "SubTodo",
         }
     ] //Array of Sub-Todos

@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema(
     {
-        /* One method of data model structure
+        /* One method of data models structure
             username: String,
             email: String,
             isActive: Boolean
