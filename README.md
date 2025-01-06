@@ -38,6 +38,26 @@ This repository contains code and examples from a series of lectures designed to
    - Establishing a connection to MongoDB.
    - Implementing CRUD operations: **Create**, **Read**, **Update**, and **Delete** using Mongoose.
 
+### Project: File Upload Web Application (MERN Stack)
+- **Topic**: Integrating MongoDB Compass with the codebase.
+- **Key Focus**:
+   - Express: Web framework for handling HTTP requests.
+   - Mongoose: MongoDB ORM for interacting with the database.
+   - bcrypt: For password hashing.
+   - jsonwebtoken: For JWT-based authentication.
+   - Cloudinary: Cloud-based file storage and CDN.
+   - multer: Middleware for handling file uploads.
+   - dotenv: For environment variable management.
+   - ejs: Template engine for dynamic views.
+   - express-validator: For input validation.
+   - cookie-parser: For handling cookies.
+
+- **Features**
+    - User Authentication (JWT, bcrypt).
+    - File Uploads (using multer and Cloudinary).
+    - CRUD Operations (Create, Read, Update, Delete).
+    - Frontend built with React.
+
 ## Usage
 
 1. Clone the repository:
