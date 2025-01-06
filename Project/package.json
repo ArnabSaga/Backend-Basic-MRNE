@@ -1,0 +1,33 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "File uploader just like google drive",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx nodemon app.js"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "Bcrypt js",
+    "Express-Validator"
+  ],
+  "author": "Arnab",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.41.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0"
+  }
+}
