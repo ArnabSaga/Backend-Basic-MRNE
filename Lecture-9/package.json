@@ -1,0 +1,21 @@
+{
+  "name": "lecture-9",
+  "version": "1.0.0",
+  "description": "Learning MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "MongoDB",
+    "Data-Base"
+  ],
+  "author": "Arnab",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2"
+  }
+}
